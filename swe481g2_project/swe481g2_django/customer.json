@@ -1,0 +1,146 @@
+[
+{
+ "model": "customer.menuitem",
+ "pk": 1,
+ "fields": {
+  "name": "Pizza",
+  "description": "Pizza with tasty toppings",
+  "image": "menu_images/725aa2473489db2e550656210c557f18-cheesy-pizza-icon-by-vexels.png",
+  "price": "7.99",
+  "category": [
+   2
+  ]
+ }
+},
+{
+ "model": "customer.menuitem",
+ "pk": 2,
+ "fields": {
+  "name": "Calzone",
+  "description": "A tasty calzone!",
+  "image": "menu_images/1-17-512.png",
+  "price": "4.99",
+  "category": [
+   1
+  ]
+ }
+},
+{
+ "model": "customer.menuitem",
+ "pk": 3,
+ "fields": {
+  "name": "Soda",
+  "description": "Any variety of soda products. Sponsored by Porpse Co.",
+  "image": "menu_images/food_Coke-Can-Soda-Beer-Beverage-Drink-512.png",
+  "price": "1.99",
+  "category": [
+   4
+  ]
+ }
+},
+{
+ "model": "customer.menuitem",
+ "pk": 4,
+ "fields": {
+  "name": "Ice Cream",
+  "description": "3 scoops of ice cream!",
+  "image": "menu_images/flatversionsvgicecream-1319964483943937255.png",
+  "price": "2.49",
+  "category": [
+   3
+  ]
+ }
+},
+{
+ "model": "customer.menuitem",
+ "pk": 5,
+ "fields": {
+  "name": "Spaghetti",
+  "description": "Delicious pasta in marinara sauce.",
+  "image": "menu_images/195584.jpg.png",
+  "price": "3.75",
+  "category": [
+   2
+  ]
+ }
+},
+{
+ "model": "customer.category",
+ "pk": 1,
+ "fields": {
+  "name": "Appetizer"
+ }
+},
+{
+ "model": "customer.category",
+ "pk": 2,
+ "fields": {
+  "name": "Entre"
+ }
+},
+{
+ "model": "customer.category",
+ "pk": 3,
+ "fields": {
+  "name": "Dessert"
+ }
+},
+{
+ "model": "customer.category",
+ "pk": 4,
+ "fields": {
+  "name": "Drink"
+ }
+},
+{
+ "model": "customer.ordermodel",
+ "pk": 1,
+ "fields": {
+  "created_on": "2021-01-21T01:03:14.734Z",
+  "price": "0.00",
+  "items": []
+ }
+},
+{
+ "model": "customer.ordermodel",
+ "pk": 2,
+ "fields": {
+  "created_on": "2021-01-21T02:33:46.570Z",
+  "price": "0.00",
+  "items": []
+ }
+},
+{
+ "model": "customer.ordermodel",
+ "pk": 3,
+ "fields": {
+  "created_on": "2021-01-21T02:33:51.426Z",
+  "price": "0.00",
+  "items": []
+ }
+},
+{
+ "model": "customer.ordermodel",
+ "pk": 4,
+ "fields": {
+  "created_on": "2021-01-21T02:49:07.498Z",
+  "price": "12.98",
+  "items": [
+   1,
+   2
+  ]
+ }
+},
+{
+ "model": "customer.ordermodel",
+ "pk": 5,
+ "fields": {
+  "created_on": "2021-01-21T02:49:33.695Z",
+  "price": "12.98",
+  "items": [
+   1,
+   2
+  ]
+ }
+}
+]
